@@ -1,4 +1,4 @@
-# hxgodot-bunnymark
+# HxGodot BunnymarkV2 for Godot 4
 
 Renders an increasing number of bunny sprites until a stable 60fps is hit. This is a decent test of real world usage as it combines Godot api usage with raw computation. Feel free to contribute language implementations or improvements!
 
