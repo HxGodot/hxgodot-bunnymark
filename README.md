@@ -1,12 +1,10 @@
 # hxgodot-bunnymark
 
-> **Warning** This repo is based on [@cart_cart](https://twitter.com/cart_cart)'s https://github.com/cart/godot3-bunnymark.
-
 Renders an increasing number of bunny sprites until a stable 60fps is hit. This is a decent test of real world usage as it combines Godot api usage with raw computation. Feel free to contribute language implementations or improvements!
 
 For each run, the benchmark will create a new report in the `reports` folder.
 
-I'm collecting my reports [in a google sheet here](https://docs.google.com/spreadsheets/d/1DnEdHcOCv5znKHPEK5vSRZpaGyOuhUPLuldATTb0484/edit?usp=sharing).
+I'm aggregating my reports [in a google sheet here](https://docs.google.com/spreadsheets/d/1DnEdHcOCv5znKHPEK5vSRZpaGyOuhUPLuldATTb0484/edit?usp=sharing).
 
 
 ## Disclaimer
@@ -49,7 +47,7 @@ scons platform=<windows|linux|macos> target=<debug|release>
 
 ## Credits
 
-* [@cart](https://github.com/cart)
+* [@cart](https://github.com/cart) This repo is based on [@cart_cart](https://twitter.com/cart_cart)'s https://github.com/cart/godot3-bunnymark
 * GDScript example adapted from: https://github.com/curly-brace/godot-bunnies.  Thanks [@curly-brace](https://github.com/curly-brace)!
 * [@Capital-EX](https://github.com/Capital-EX) provided the initial Nim tests, the D tests, and the display server tests
 * [@endragor](https://github.com/endragor) updated the GDNative tests to work with Godot 3.0 stable

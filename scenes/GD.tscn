@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddh8kv8fou8mv"]
+
+[ext_resource type="Script" path="res://scenes/GDBunnymarkV2.gd" id="1_jvgtp"]
+
+[node name="GD" type="Node2D"]
+script = ExtResource("1_jvgtp")

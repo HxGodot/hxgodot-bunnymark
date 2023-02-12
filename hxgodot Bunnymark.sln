@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hxgodot Bunnymark", "hxgodot Bunnymark.csproj", "{402D0031-687A-48A2-B195-D50722408E73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402D0031-687A-48A2-B195-D50722408E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402D0031-687A-48A2-B195-D50722408E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402D0031-687A-48A2-B195-D50722408E73}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{402D0031-687A-48A2-B195-D50722408E73}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{402D0031-687A-48A2-B195-D50722408E73}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{402D0031-687A-48A2-B195-D50722408E73}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
