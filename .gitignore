@@ -1,8 +1,21 @@
-# Godot auto generated files
-*.gen.*
-.import/
+# Godot 4+ specific ignores
 .godot/
-/gen/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# Bindings
+bindings
 
 # Misc
 logs/*
@@ -12,12 +25,13 @@ logs/*
 *.o
 *.os
 *.so
-*.obj
 *.bc
 *.pyc
 *.dblite
 *.pdb
 *.lib
+bin/*
+!bin/.gdignore
 *.config
 *.creator
 *.creator.user
