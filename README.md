@@ -6,6 +6,7 @@ For each run, the benchmark will create a new report in the `reports` folder.
 
 I'm aggregating my reports [in a google sheet here](https://docs.google.com/spreadsheets/d/1DnEdHcOCv5znKHPEK5vSRZpaGyOuhUPLuldATTb0484/edit?usp=sharing).
 
+![HxGodot Bunnymark](chart.png)
 
 ## Disclaimer
 
