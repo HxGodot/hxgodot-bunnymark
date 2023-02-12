@@ -26,7 +26,7 @@ Open the project in Godot Editor at least once to import everything
 
 ### csharp
 
-Open the project in Godot Editor and build the csharp code at least once. Have either `.dot6` or `.dot7` SDK installed.
+Open the project in Godot Editor and build the csharp code at least once. Have either `.net6` or `.net7` SDK installed.
 
 ```
 <path to your godot executable with C# support> --lang=csharp
