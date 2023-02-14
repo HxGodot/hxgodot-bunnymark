@@ -12,7 +12,8 @@ var arg_lang = "--lang="
 var scenes = {
 	gdscript = 'res://scenes/GD.tscn',
 	csharp = 'res://scenes/CSharp.tscn',
-	hxgodot = 'res://scenes/Haxe.tscn'
+	hxgodot = 'res://scenes/Haxe.tscn',
+	godotcpp = 'res://scenes/CPP.tscn'
 }
 
 # bunnymark
@@ -32,7 +33,7 @@ func _ready():
 	benchmark_container = get_node("BenchmarkContainer")
 	
 	benchmark = "BunnymarkV2"
-	language = "csharp"
+	language = "godotcpp"
 	
 	var args = OS.get_cmdline_args()
 	for arg in args:

@@ -26,8 +26,7 @@ class HxBunnymark extends Node2D {
     }
 
     override function _process(delta:Float) {
-        screen_size = get_viewport_rect().size;
-        label.text = "Bunnies: " + bunnies.length;
+        screen_size = get_viewport_rect().size;        
 
         for (i in 0...bunnies.length) {
             var bunny = bunnies[i];
@@ -74,14 +73,19 @@ class HxBunnymark extends Node2D {
         bunnyRoot.add_child(bunny);
         bunny.position = new Vector2(screen_size.x / 2, screen_size.y / 2);
         bunny_speeds.push(new Vector2(GDUtils.randi() % 200 + 50, GDUtils.randi() % 200 + 50));
+
+        label.text = "Bunnies: " + bunnies.length;
     }
 
     @:export public function remove_bunny() {
+
         if (bunnies.length == 0) return;
         bunny_speeds.pop();
         var bunny = bunnies.pop();
         bunnyRoot.remove_child(bunny);
         bunny.queue_free();
+        
+        label.text = "Bunnies: " + bunnies.length;
     }
 
     @:export public function finish() {

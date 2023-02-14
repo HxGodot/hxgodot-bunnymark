@@ -21,7 +21,7 @@ project/assembly_name="hxgodot Bunnymark"
 
 [native_extensions]
 
-paths=["res://example.gdextension"]
+paths=["res://godot-cpp-bunnymark.gdextension", "res://hxgodot.gdextension"]
 
 [rendering]
 
