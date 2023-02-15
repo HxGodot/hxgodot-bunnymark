@@ -70,4 +70,4 @@ func remove_bunny():
 	label.text = "Bunnies: " + str(bunnies.size())
 
 func finish():
-	emit_signal("benchmark_finished", bunnies.get_child_count())
+	emit_signal("benchmark_finished", bunnies.size())
