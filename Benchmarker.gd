@@ -33,7 +33,7 @@ func _ready():
 	benchmark_container = get_node("BenchmarkContainer")
 	
 	benchmark = "BunnymarkV2"
-	language = "godotcpp"
+	language = "gdscript"
 	
 	var args = OS.get_cmdline_args()
 	for arg in args:

@@ -45,6 +45,21 @@ scons platform=<windows|linux|macos> target=<debug|release>
 <path to your godot executable> --lang=hxgodot
 ```
 
+### godot-cpp
+
+Git clone godot-cpp somewhere of to liking. Adjust the path to its SConstruct file in `scenes/cpp/SConstruct`
+
+```
+cd scenes/cpp
+scons target=template_debug
+scons target=template_release
+
+```
+
+```
+<path to your godot executable> --lang=godotcpp
+```
+
 
 ## Credits
 
